@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Default">
+   <test name="TestA">
+       <Classes>
+           <class name="framework.TestNG.Ignore_Method_In_TestNG">
+           </class>
+       </Classes>
+   </test>
+</suite>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="paramterclass">
+
+     <parameter name="url" value="https://facebook.com"></parameter>
+     <parameter name="uid" value="abc@gmail.com"></parameter>
+     <parameter name="pwd" value="hello@123"></parameter>
+     <test name="Test1" verbose="2">
+           <classes>
+                 <class name="framework.TestNG.Paramater_Using_TestNG" />
+                
+                 
+                               
+                 
+           </classes>
+     </test>
+</suite>
