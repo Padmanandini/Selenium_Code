@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="DataProvider">
+<parameter name="URL" value="https://www.facebook.com/r.php"></parameter>
+     <test name="Test1" verbose="2">
+       <classes>
+           <class name="framework.TestNG.DataProvider_Using_TestNG"></class>
+       </classes>
+     </test>   
+</suite>

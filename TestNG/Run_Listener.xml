@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Listener">
+<listeners>
+<listener class-name="framework.TestNG.Listener">
+</listener>
+</listeners>
+    <test name="Listener class"  verbose="2">
+     <classes>
+      <class name="framework.TestNG.Listeners_Using_TestNG">
+      </class>
+    </classes>
+    </test>
+</suite>

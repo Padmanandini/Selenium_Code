@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Default">
+   <parameter name="Roundtrip" value="//input[@id='RoundTrip']"
+   <parameter name="Url" value="https://cleartrip.com"
+    <test name="Test1" verbose="2">
+         <classes>
+            <class name="Framework.TestNG.Webdriver_Using_TestNG">
+            </class>
+         </classes>
+    </test>
+</suite>

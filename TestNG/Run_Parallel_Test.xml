@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="ParallelTest" parallel="classes" thread-count="2">
+
+  <parameter name="URL" value="https://facebook.com"></parameter>
+  <parameter name="URL1" value="https://facebook.com"></parameter>
+  
+  <parameter name="email" value="abc@gmail.com"></parameter>
+  <parameter name="pswd" value="hello"></parameter>
+  
+  <parameter name="email1" value="xyz@gmail.com"></parameter>
+  <parameter name="pswd1" value="hey1"></parameter>
+  
+  <test name="Parallel" verbose="2">
+        <classes>
+             <class name="framework.TestNG.Parallel_Test_Using_TestNG" />
+             <class name="framework.TestNG.Parallel" />
+            
+        </classes>
+  </test>
+</suite>
